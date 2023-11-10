@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.TabActivity">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/my_tab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+<!--  slide转换变化  -->
+<!--    <com.flyco.tablayout.SlidingTabLayout-->
+<!--        android:id="@+id/slide"-->
+<!--        app:tl_textsize="20dp"-->
+<!--        app:tl_indicator_color="@color/black"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="@android:color/holo_blue_bright"-->
+<!--        android:layout_height="40dp"/>-->
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPage"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        />-->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/my_pager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
