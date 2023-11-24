@@ -39,9 +39,9 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
-////    //noinspection GradleCompatible 事实证明，不需要
-//    implementation 'com.android.support:support-v4:6.1.0'
 
     //rxjava
         //RxJava的依赖包
@@ -62,6 +62,13 @@ dependencies {
     //EventBus
     implementation("org.greenrobot:eventbus:3.3.1")
 
+    //likebutton
+    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+    //baseRecry
+//    implementation "io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.14"
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
+        //recyclerview也要声明
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

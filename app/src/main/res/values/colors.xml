@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#00CCFF</color>
+    <color name="colorPrimaryDark">#0098BE</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--custom-->
+    <color name="base_bg_color">@color/white</color>
+    <color name="base_item_tint">@color/gray</color>
+    <color name="text_color_base">@color/white</color>
+    <color name="text_color_second">@color/deep_gray</color>
+    <color name="text_color_third">@color/gray1</color>
+    <color name="text_color_reverse">@color/black_dark</color>
+    <color name="nav_selected">@color/colorPrimary</color>
+    <color name="nav_unselected">@color/gray1</color>
+    <color name="color_line_divider">@color/gray</color>
+    <color name="color_pressed">@color/gray1</color>
+    <color name="colorPrimaryLight">@color/blue_light</color>
+
+    <color name="red">#D24D57</color>
+    <color name="orange">#EB7347</color>
+    <color name="orange_red">#FC9D99</color>
+    <color name="green">#26A65B</color>
+    <color name="green_light">#8cc540</color>
+    <color name="green_dark">#84AF9B</color>
+    <color name="green_grass">#AEDD81</color>
+    <color name="blue">#00CCFF</color>
+    <color name="blue_light">#00B1E0</color>
+    <color name="blue_dark">#019fa0</color>
+    <color name="blue_deep">#007cdc</color>
+    <color name="purple_light">#cd7bdd</color>
+    <color name="purple_deep">#887ddd</color>
+    <color name="pink">#ff5675</color>
+    <color name="yellow">#f8bd0b</color>
+    <color name="gray">#D0D0D0</color>
+
+    <!-- 对名称进行了修改   -->
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="deep_gray">#a9a9a9</color> <!-- 暗灰色 -->
+    <color name="black_dark">#000000</color> <!-- 黑色 -->
+    <color name="gray1">#cd853f</color> <!-- 秘鲁色 -->
+
+    <color name="trans">@android:color/transparent</color>
 </resources>
